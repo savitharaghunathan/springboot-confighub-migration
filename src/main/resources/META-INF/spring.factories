@@ -1,0 +1,4 @@
+# Pattern 46: spring.factories entries for EnvironmentPostProcessor
+# In 4.0, the package location of EnvironmentPostProcessor changes
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.example.confighub.bootstrap.ConfigEnvironmentPostProcessor
